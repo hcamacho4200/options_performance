@@ -1,8 +1,14 @@
 Options Performance
 ===================
 
+## Vision
+
+To provide a way of processing options trading data so a number of key factors reported:
+* Evaluate option campaign performance (adjustment after adjustment)
+* Evaluate annualized returns
+
 ## Features
-- Starting with TD Ameritrade Format and Authentication
+* Starting with TD Ameritrade Format and Authentication
 
 ## Setup
 * create Python Virtual Environment
