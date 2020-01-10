@@ -10,18 +10,28 @@ To provide a way of processing options trading data so a number of key factors r
 ## Features
 * Starting with TD Ameritrade Format and Authentication
 
+## Import Process
+* init database tracking
+* determine last transaction imported
+* append activity
+* group by underlying
+
+## Report
+* 
+
+
 ## Setup
 create Python Virtual Environment
 ```
-hcamacho-mn2: hcamacho$ python3.7 -m venv options_performance_venv
+$ python3.7 -m venv options_performance_venv
 ```
 activate Python environment
 ```
-hcamacho-mn2: hcamacho$ . ./options_performance_venv/bin/activate
+$ . ./options_performance_venv/bin/activate
 ```
 prepare upgrade pip
 ```
-hcamacho-mn2: hcamacho$ pip install --upgrade pip
+$ pip install --upgrade pip
 Collecting pip
   Downloading https://files.pythonhosted.org/packages/00/b6/9cfa56b4081ad13874b0c6f96af8ce16cfbc1cb06bedf8e9164ce5551ec1/pip-19.3.1-py2.py3-none-any.whl (1.4MB)
     100% |████████████████████████████████| 1.4MB 8.0MB/s 
@@ -33,7 +43,7 @@ Successfully installed pip-19.3.1
 ```
 install packages
 ```
-hcamacho-mn2: hcamacho$ pip install -r requirements.txt 
+$ pip install -r requirements.txt 
 Collecting attrs==19.3.0 (from -r requirements.txt (line 1))
   Using cached https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
 Collecting certifi==2019.11.28 (from -r requirements.txt (line 2))
@@ -45,8 +55,8 @@ Successfully installed attrs-19.3.0 certifi-2019.11.28 chardet-3.0.4 idna-2.8 im
 ```
 execute tests
 ```
-(options_performance_venv) [~/hcamacho4200/options_performance] (master)
-hcamacho-mn2: hcamacho$ pytest test/
+(options_performance_venv)
+$ pytest test/
 ```
 ```bash
 ========================================================================================================================================= test session starts =========================================================================================================================================
