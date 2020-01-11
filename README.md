@@ -1,8 +1,10 @@
 Options Performance
 ===================
 
-## Vision
+Disclosure: This project is very much a work in progress, at this point no code is remotely production ready
 
+
+## Vision
 To provide a way of processing options trading data so a number of key factors reported:
 * Evaluate option campaign performance (adjustment after adjustment)
 * Evaluate annualized returns
