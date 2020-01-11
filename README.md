@@ -17,7 +17,49 @@ To provide a way of processing options trading data so a number of key factors r
 * group by underlying
 
 ## Report
-* 
+* Summary
+    * SMIC performance based on start of equity and current value
+    * S&P500 Performance
+    * MSFT Performance
+    * SMIC Performance to Bench Mark
+* Running Status
+    * starting capital (beginning of year or start of trading)
+    * Date of update (API)
+    * Days since last change (CALC)
+    * New Capital (API)
+    * Total Capital (CALC)
+    * Current Buying Power (Verticals is the spread, else the margin requirement)
+    * Reserves (CALC)
+    * Total Sweep (CALC)
+    * Equity Positions (CALC)
+    * Account Value (Sweep + Equity)
+    * SMIC Performance (CALC) starting capital vs acct value
+* Position Summary
+    * symbol
+    * date open
+    * total risk
+    * total credit
+    * annualized profit/loss
+        * transaction (type, strike, qty, price) running risk, running credit
+* Open Position Summary
+* Closed Positions Summary
+* Closed Position Performance
+
+## Example Report
+* Summary
+
+performance
+
+| SMIC  | S&P 500 | MSFT |
+| :---: | :---: | :---: |
+| 21% | 31% | 45% |
+
+running stats
+
+|date|total<br>capital|days|
+|:---:|:---:|:---:|
+|2020-01-03|100000|2|
+|2020-01-01|100000|0|
 
 
 ## Setup
