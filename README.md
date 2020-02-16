@@ -58,10 +58,16 @@ performance
 
 running stats
 
-|date|total<br>capital|days|
-|:---:|:---:|:---:|
-|2020-01-03|100000|2|
-|2020-01-01|100000|0|
+|date|days|total<BR>capital|New<BR>Capital|Buying<BR>Power|
+|:---:|:---:|:---:|:---:|:---:|
+|2020-01-03|2|100000|0|80000|
+|2020-01-01|0|100000|0|75000|
+
+position summary
+
+|symbol|open<br>date|close<br>date|days in <br> trade|total<BR>cost|total<BR>risk|ARR|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| NFLX| 2020-01-05 | | | -200 | 1000 | 243 | 
 
 
 ## Setup
