@@ -4,13 +4,16 @@ from .capital import (
     CapitalDataError
 )
 from .instrument import (
-    Instrument
+    InstrumentError
 )
-from .options import (
-    Option,
-    OptionEffect,
+from .instrument_equity import (
+    EquityInstrument
+)
+from .instrument_option import (
+    OptionInstrument
+)
+from .instrument_option import (
     OptionError,
-    OptionFactory,
     OptionType
 )
 from .types import (

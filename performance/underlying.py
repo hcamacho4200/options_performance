@@ -56,7 +56,7 @@ class Underlying:
         self._total_credit = float(0)
         self._total_debit = float(0)
 
-    def _update_profit(self, cost):
+    def _update_profit(self, cost: float):
         """
         Update the profit counters
         - if >0 then increase debit

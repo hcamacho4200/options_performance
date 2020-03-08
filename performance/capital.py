@@ -20,7 +20,7 @@ class CapitalData:
         self._capital = capital
 
     @property
-    def end_date(self, end_date: datetime):
+    def end_date(self):
         return self._end_date
 
     @end_date.setter
